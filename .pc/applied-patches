@@ -1,0 +1,3 @@
+upstream-XSS.patch
+upstream-XSS-2.patch
+php-5.5-compat.patch

@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<newentry>
+<dn> cn=Lab_Admin,dc=localhost </dn>
+<cn> Lab_Admin </cn>
+<gidnumber> 501 </gidnumber>
+<objectclass> posixGroup </objectclass>
+<objectclass> top </objectclass>
+</newentry>
+<newentry>
+<dn> cn=L1,cn=Lab_Admin,dc=localhost </dn>
+<cn> L1 </cn>
+<gidnumber> 501 </gidnumber>
+<homedirectory> /home/users/l1 </homedirectory>
+<objectclass> inetOrgPerson </objectclass>
+<objectclass> posixAccount </objectclass>
+<objectclass> top </objectclass>
+<sn> L1 </sn>
+<uid> l1 </uid>
+<uidnumber> 1000 </uidnumber>
+<userpassword> {MD5}N3/VaZce7euo++ooQ0o5Cg== </userpassword>
+</newentry>
+<newentry>
+<dn> cn=L2,cn=Lab_Admin,dc=localhost </dn>
+<cn> L2 </cn>
+<gidnumber> 501 </gidnumber>
+<homedirectory> /home/users/l2 </homedirectory>
+<objectclass> inetOrgPerson </objectclass>
+<objectclass> posixAccount </objectclass>
+<objectclass> top </objectclass>
+<sn> L2 </sn>
+<uid> l2 </uid>
+<uidnumber> 1001 </uidnumber>
+<userpassword> {MD5}vsJWdXdengoNeDpQGLRj4w== </userpassword>
+</newentry>
+<newentry>
+<dn> cn=Resources,dc=localhost </dn>
+<cn> Resources </cn>
+<gidnumber> 500 </gidnumber>
+<objectclass> posixGroup </objectclass>
+<objectclass> top </objectclass>
+</newentry>
+<newentry>
+<dn> cn=R1,cn=Resources,dc=localhost </dn>
+<cn> R1 </cn>
+<gidnumber> 500 </gidnumber>
+<homedirectory> /home/users/r1 </homedirectory>
+<objectclass> inetOrgPerson </objectclass>
+<objectclass> posixAccount </objectclass>
+<objectclass> top </objectclass>
+<sn> R1 </sn>
+<uid> r1 </uid>
+<uidnumber> 1003 </uidnumber>
+<userpassword> {MD5}fJLPHu6NmcyF+DVaPW5Lhg== </userpassword>
+</newentry>
+<newentry>
+<dn> cn=R2,cn=Resources,dc=localhost </dn>
+<cn> R2 </cn>
+<gidnumber> 500 </gidnumber>
+<homedirectory> /home/users/r2 </homedirectory>
+<objectclass> inetOrgPerson </objectclass>
+<objectclass> posixAccount </objectclass>
+<objectclass> top </objectclass>
+<sn> R2 </sn>
+<uid> r2 </uid>
+<uidnumber> 1002 </uidnumber>
+<userpassword> {MD5}0nkYZCinUBaxfk316kPQgA== </userpassword>
+</newentry>
+<newentry>
+<dn> ou=People,dc=localhost </dn>
+<objectclass> organizationalUnit </objectclass>
+<objectclass> top </objectclass>
+<ou> People </ou>
+</newentry>
+<newentry>
+<dn> cn=Faculty,ou=People,dc=localhost </dn>
+<cn> Faculty </cn>
+<gidnumber> 502 </gidnumber>
+<objectclass> posixGroup </objectclass>
+<objectclass> top </objectclass>
+</newentry>
+<newentry>
+<dn> cn=F1,cn=Faculty,ou=People,dc=localhost </dn>
+<cn> F1 </cn>
+<gidnumber> 502 </gidnumber>
+<homedirectory> /home/users/f1 </homedirectory>
+<objectclass> inetOrgPerson </objectclass>
+<objectclass> posixAccount </objectclass>
+<objectclass> top </objectclass>
+<sn> f1 </sn>
+<uid> f1 </uid>
+<uidnumber> 1004 </uidnumber>
+<userpassword> {MD5}vRmDbdtiwRxVqyUcyspWRQ== </userpassword>
+</newentry>
+<newentry>
+<dn> cn=F2,cn=Faculty,ou=People,dc=localhost </dn>
+<cn> F2 </cn>
+<gidnumber> 502 </gidnumber>
+<homedirectory> /home/users/f2 </homedirectory>
+<objectclass> inetOrgPerson </objectclass>
+<objectclass> posixAccount </objectclass>
+<objectclass> top </objectclass>
+<sn> f2 </sn>
+<uid> f2 </uid>
+<uidnumber> 1006 </uidnumber>
+<userpassword> {MD5}Nmf2oMl0kHWNfcllnQHqNA== </userpassword>
+</newentry>
+<newentry>
+<dn> cn=Staff,ou=People,dc=localhost </dn>
+<cn> Staff </cn>
+<gidnumber> 503 </gidnumber>
+<objectclass> posixGroup </objectclass>
+<objectclass> top </objectclass>
+</newentry>
+<newentry>
+<dn> cn=S1,cn=Staff,ou=People,dc=localhost </dn>
+<cn> S1 </cn>
+<gidnumber> 503 </gidnumber>
+<homedirectory> /home/users/s1 </homedirectory>
+<objectclass> inetOrgPerson </objectclass>
+<objectclass> posixAccount </objectclass>
+<objectclass> top </objectclass>
+<sn> S1 </sn>
+<uid> s1 </uid>
+<uidnumber> 1007 </uidnumber>
+<userpassword> {MD5}jd+HgDm3B2fEpbz08MT2Xg== </userpassword>
+</newentry>
+<newentry>
+<dn> cn=S2,cn=Staff,ou=People,dc=localhost </dn>
+<cn> S2 </cn>
+<gidnumber> 503 </gidnumber>
+<homedirectory> /home/users/s2 </homedirectory>
+<objectclass> inetOrgPerson </objectclass>
+<objectclass> posixAccount </objectclass>
+<objectclass> top </objectclass>
+<sn> S2 </sn>
+<uid> s2 </uid>
+<uidnumber> 1005 </uidnumber>
+<userpassword> {MD5}+smJRHytLtvIn7y6cAA7Ng== </userpassword>
+</newentry>
+<newentry>
+<dn> ou=Students,ou=People,dc=localhost </dn>
+<objectclass> organizationalUnit </objectclass>
+<objectclass> top </objectclass>
+<ou> Students </ou>
+</newentry>
+<newentry>
+<dn> cn=BTech,ou=Students,ou=People,dc=localhost </dn>
+<cn> BTech </cn>
+<gidnumber> 504 </gidnumber>
+<objectclass> posixGroup </objectclass>
+<objectclass> top </objectclass>
+</newentry>
+<newentry>
+<dn> cn=B1,cn=BTech,ou=Students,ou=People,dc=localhost </dn>
+<cn> B1 </cn>
+<gidnumber> 504 </gidnumber>
+<homedirectory> /home/users/b1 </homedirectory>
+<objectclass> inetOrgPerson </objectclass>
+<objectclass> posixAccount </objectclass>
+<objectclass> top </objectclass>
+<sn> b1 </sn>
+<uid> b1 </uid>
+<uidnumber> 1008 </uidnumber>
+<userpassword> {MD5}7bq0VXLHKl2UQLQLzAUAwA== </userpassword>
+</newentry>
+<newentry>
+<dn> cn=B2,cn=BTech,ou=Students,ou=People,dc=localhost </dn>
+<cn> B2 </cn>
+<gidnumber> 504 </gidnumber>
+<homedirectory> /home/users/b2 </homedirectory>
+<objectclass> inetOrgPerson </objectclass>
+<objectclass> posixAccount </objectclass>
+<objectclass> top </objectclass>
+<sn> B2 </sn>
+<uid> b2 </uid>
+<uidnumber> 1009 </uidnumber>
+<userpassword> {MD5}+/ui5FwgRdxcqyKlr+g9nQ== </userpassword>
+</newentry>
+<newentry>
+<dn> cn=MTech,ou=Students,ou=People,dc=localhost </dn>
+<cn> MTech </cn>
+<gidnumber> 505 </gidnumber>
+<objectclass> posixGroup </objectclass>
+<objectclass> top </objectclass>
+</newentry>
+<newentry>
+<dn> cn=M1,cn=MTech,ou=Students,ou=People,dc=localhost </dn>
+<cn> M1 </cn>
+<gidnumber> 505 </gidnumber>
+<homedirectory> /home/users/m1 </homedirectory>
+<objectclass> inetOrgPerson </objectclass>
+<objectclass> posixAccount </objectclass>
+<objectclass> top </objectclass>
+<sn> M1 </sn>
+<uid> m1 </uid>
+<uidnumber> 1010 </uidnumber>
+<userpassword> {MD5}rnvibNqnQsoUgGjVrJDqyg== </userpassword>
+</newentry>
+<newentry>
+<dn> cn=M2,cn=MTech,ou=Students,ou=People,dc=localhost </dn>
+<cn> M2 </cn>
+<gidnumber> 505 </gidnumber>
+<homedirectory> /home/users/m2 </homedirectory>
+<objectclass> inetOrgPerson </objectclass>
+<objectclass> posixAccount </objectclass>
+<objectclass> top </objectclass>
+<sn> M2 </sn>
+<uid> m2 </uid>
+<uidnumber> 1011 </uidnumber>
+<userpassword> {MD5}qvL4mZI3lwXayETAoqHUXw== </userpassword>
+</newentry>
+<newentry>
+<dn> cn=PhD,ou=Students,ou=People,dc=localhost </dn>
+<cn> PhD </cn>
+<gidnumber> 506 </gidnumber>
+<objectclass> posixGroup </objectclass>
+<objectclass> top </objectclass>
+</newentry>
+<newentry>
+<dn> cn=P1,cn=PhD,ou=Students,ou=People,dc=localhost </dn>
+<cn> P1 </cn>
+<gidnumber> 506 </gidnumber>
+<homedirectory> /home/users/p1 </homedirectory>
+<objectclass> inetOrgPerson </objectclass>
+<objectclass> posixAccount </objectclass>
+<objectclass> top </objectclass>
+<sn> P1 </sn>
+<uid> p1 </uid>
+<uidnumber> 1012 </uidnumber>
+<userpassword> {MD5}7G7yMPGCgDnueUVmucWK3A== </userpassword>
+</newentry>
+<newentry>
+<dn> cn=P2,cn=PhD,ou=Students,ou=People,dc=localhost </dn>
+<cn> P2 </cn>
+<gidnumber> 506 </gidnumber>
+<homedirectory> /home/users/p2 </homedirectory>
+<objectclass> inetOrgPerson </objectclass>
+<objectclass> posixAccount </objectclass>
+<objectclass> top </objectclass>
+<sn> P2 </sn>
+<uid> p2 </uid>
+<uidnumber> 1013 </uidnumber>
+<userpassword> {MD5}HWZbmxRnlEwSilV1EZ0c/Q== </userpassword>
+</newentry>
+</root>
