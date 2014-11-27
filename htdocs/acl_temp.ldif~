@@ -1,7 +1,0 @@
-dn: olcDatabase={1}hdb,cn=config 
-changetype: modify 
-add: olcAccess 
-olcAccess: {1}to dn="cn=R2,cn=Resources,ou=Dept,dc=localhost"
-    by dn.children="cn=Lab_Admin,ou=Dept,dc=localhost" write
-    by dn.children="cn=PhD,ou=Students,ou=People,ou=Dept,dc=localhost" write
-    by dn.children="cn=Faculty,ou=People,ou=Dept,dc=localhost" write

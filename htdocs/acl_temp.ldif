@@ -1,6 +1,0 @@
-dn: olcDatabase={1}hdb,cn=config
-changetype: modify
-replace: olcAccess
-olcAccess: {0}to *
-    by *
-
