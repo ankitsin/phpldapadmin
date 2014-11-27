@@ -1,0 +1,7 @@
+dn: cn=object, cn=schema, cn=config
+objectClass: olcSchemaConfig
+cn: object
+olcAttributeTypes: {0}(1.3.6.1.4.1.4203.666.1.14153894453 NAME 'att' EQUALITY caseIgnoreMatch SUBSTR caseIgnoreSubstringsMatch SYNTAX 1.3.6.1.4.1.1466.115.121.1.15{1024} )
+olcAttributeTypes: {1}(1.3.6.1.4.1.4203.666.1.14153894454 NAME 'oo' EQUALITY caseIgnoreMatch SUBSTR caseIgnoreSubstringsMatch SYNTAX 1.3.6.1.4.1.1466.115.121.1.15{1024} )
+olcAttributeTypes: {2}(1.3.6.1.4.1.4203.666.1.14153894455 NAME 'ii' EQUALITY caseIgnoreMatch SUBSTR caseIgnoreSubstringsMatch SYNTAX 1.3.6.1.4.1.1466.115.121.1.15{1024} )
+olcObjectClasses: {0}(1.3.6.1.4.1.4203.666.1.14153894456 NAME 'object' DESC ' my object class' SUP (top $ person) AUXILIARY  )  MAY (att $ att $ oo $ ii )) 
